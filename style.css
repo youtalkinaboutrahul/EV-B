@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+/* HEADER SECTION */
+
+#headerSection {
+  width: 100%;
+  background-color: #c5e2f0;
+  height: 60px;
+}
+
+.headerLogo {
+  float: left;
+  padding: 10px 0px;
+  margin-left: 50px;
+}
+
+/* NAVIGATION SECTION */
+
+.mainNavMenu {
+  margin-left: 300px;
+  padding-left: 200px;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.mainNavMenu li {
+  float: left;
+  height: 40px;
+  line-height: 60px;
+  margin-right: 150px;
+}
+
+.mainNavMenu li a {
+  color: #1e1e1e;
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+}
+
+.mainNavMenu li :hover {
+  color: #137c9e;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+/* login button */
+
+.Loginbtn {
+  margin-top: 14px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 100px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.Loginbtn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* Banner Section */
+
+#bannerSection {
+  background-color: white;
+  width: 100%;
+  height: 680px;
+}
+
+/* PrebodySection */
+
+#preBodySection {
+  background-color: #c5e2f0;
+  width: 100%;
+  height: 400px;
+}
+
+.future,
+.lets-ride-the,
+.simple-and-sleek {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  align-items: center;
+}
+.simple-and-sleek {
+  top: 260px;
+  line-height: 40.52px;
+  font-weight: 500px;
+  color: var(--color-darkslategray-100);
+  width: 350px;
+}
+.future,
+.lets-ride-the {
+  top: 89.4px;
+  font-size: 100px;
+  letter-spacing: -0.04em;
+  line-height: 31.06px;
+  text-transform: uppercase;
+  font-weight: 450;
+  width: 1260.9px;
+  height: 200px;
+}
+.lets-ride-the {
+  top: 0;
+  left: 50px;
+  font-size: 32.2px;
+  letter-spacing: 0.73em;
+  line-height: 27.43px;
+  font-weight: 500;
+  width: 1081.6px;
+  height: 177.6px;
+}
+
+.ev-b-brings-you {
+  margin: 0;
+}
+.ev-b-brings-you-container {
+  position: absolute;
+  top: 120px;
+  left: 760px;
+  font-size: 17px;
+  letter-spacing: 0.07em;
+  font-weight: 10px;
+}
+.lets-ride-group,
+.lets-ride-group-wrapper {
+  position: absolute;
+  width: 1327px;
+  height: 419.3px;
+}
+.lets-ride-group-wrapper {
+  top: 822px;
+  left: 49px;
+  text-align: left;
+  font-size: var(--font-size-4xl-8);
+  color: var(--color-black);
+}
+
+/* .lets-ride-group-child {
+  position: absolute;
+  top: 240px;
+  left: 884px;
+  border-radius: 9.38px;
+  background: linear-gradient(180deg, #89c8dd, #73adc1),
+    linear-gradient(180deg, #89c8dd, #73adc1), #d9d9d9;
+  border: 1.8px solid var(--color-mediumturquoise);
+  box-sizing: border-box;
+  width: 140px;
+  height: 34px;
+  transition: transform 0.2s;
+}
+
+.lets-ride-group-child:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+  cursor: pointer;
+} */
+
+.pre-order {
+  position: absolute;
+  top: 249px;
+  left: 915px;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.pre-order:hover {
+  cursor: pointer;
+  /* transition: 0.5s;
+  transform: scale(1.1);
+  color: #1e1e1e; */
+}
+
+/* BODYSECTION */
+
+#bodySection {
+  background-color: #c5e2f0;
+  width: 100%;
+  height: 2800px;
+}
+
+.explore-group {
+  position: absolute;
+  top: 1200px;
+  left: 386px;
+  width: 651px;
+  height: 126px;
+  font-size: var(--font-size-4xl-8);
+  color: var(--color-darkslategray-100);
+}
+
+.explore-the-range {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 231.5px);
+  font-size: 37.4px;
+  letter-spacing: 0.14em;
+  color: var(--color-black);
+}
+
+.cpx-pro,
+.cux,
+.tc-max,
+.tc-wanderer {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 40.52px;
+  font-weight: 500;
+}
+.cpx-pro,
+.cux,
+.tc-wanderer {
+  top: 83px;
+  left: 185px;
+}
+.cpx-pro,
+.cux {
+  top: 84px;
+  left: 420px;
+}
+.cpx-pro {
+  top: 82px;
+  left: 570px;
+}
+
+/* bike 1  */
+
+.image-1-icon {
+  position: absolute;
+  top: 1350px;
+  left: 100px;
+  width: 550px;
+  height: 600px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.image-1-icon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.tc-max1 {
+  position: absolute;
+  top: 1450px;
+  left: 1000px;
+  font-size: var(--font-size-19xl-5);
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.r105300-incl-vat-or-container {
+  top: 1520px;
+  left: 1040px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.the-caf-racers-container {
+  position: absolute;
+  font-weight: 500;
+  top: 1580px;
+  left: 982;
+}
+
+.rectangle {
+  position: absolute;
+  top: 1675;
+  left: 865;
+  box-sizing: border-box;
+  width: 525px;
+  height: 95.5px;
+  background-color: rgba(125, 185, 206, 0.15000000596046448);
+  border-radius: 17.111331939697266px;
+  border: 1.5px solid rgba(134, 196, 217, 0.36000001430511475);
+}
+
+.kmhr-speed {
+  position: absolute;
+  top: 1700;
+  left: 900;
+}
+.km-battery-range-container {
+  position: absolute;
+  top: 1700;
+  left: 1050;
+}
+
+.hr-charging-time-container {
+  position: absolute;
+  top: 1700;
+  left: 1250;
+}
+
+.PRE-ORDER-2 {
+  position: absolute;
+  top: 1800;
+  left: 1080;
+  margin-top: 14px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.PRE-ORDER-2:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 2 */
+
+.image-2-icon {
+  position: absolute;
+  top: 1950px;
+  left: 830px;
+  width: 510px;
+  height: 525px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.image-2-icon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.tc-wanderer1 {
+  position: absolute;
+  top: 2080px;
+  left: 200px;
+  font-size: var(--font-size-19xl-5);
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.single-battery-r77850-container {
+  top: 2150px;
+  left: 240px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.single-battery-r77850-container .refined-simplicity {
+  margin-left: 50px;
+}
+
+.dual-battery-r103950-container {
+  position: absolute;
+  font-weight: 500;
+  top: 2215px;
+  left: 240;
+}
+
+.dual-battery-r103950-container .refined-simplicity {
+  margin-left: 50px;
+}
+
+.kmhr-speed-2 {
+  position: absolute;
+  top: 2350;
+  left: 120;
+}
+.km-battery-range-container-2 {
+  position: absolute;
+  top: 2350;
+  left: 300;
+}
+
+.hr-charging-time-container-2 {
+  position: absolute;
+  top: 2350;
+  left: 500;
+}
+
+.rectangle-2 {
+  position: absolute;
+  top: 2320;
+  left: 80;
+  box-sizing: border-box;
+  width: 560px;
+  height: 95.5px;
+  background-color: rgba(125, 185, 206, 0.15000000596046448);
+  border-radius: 17.111331939697266px;
+  border: 1.5px solid rgba(134, 196, 217, 0.36000001430511475);
+}
+
+.PRE-ORDER-20 {
+  position: absolute;
+  top: 2440;
+  left: 300;
+  margin-top: 14px;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.PRE-ORDER-20:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 3 */
+
+.image-3-icon {
+  position: absolute;
+  top: 2680px;
+  left: 100px;
+  width: 550px;
+  height: 500px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.image-3-icon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.cux1 {
+  position: absolute;
+  top: 2700px;
+  left: 700px;
+  left: 1100px;
+  font-size: var(--font-size-19xl-5);
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.r53100-incl-vat-or-container {
+  top: 2780px;
+  left: 1090px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.refined-simplicity-impressive {
+  position: absolute;
+  font-weight: 500;
+  top: 2840px;
+  left: 1030;
+}
+
+.refined-simplicity-impressive .refined-simplicity {
+  margin-left: 50px;
+}
+
+.kmhr-speed-3 {
+  position: absolute;
+  top: 2980;
+  left: 900;
+}
+.km-battery-range-container-3 {
+  position: absolute;
+  top: 2980;
+  left: 1050;
+}
+
+.hr-charging-time-container-3 {
+  position: absolute;
+  top: 2980;
+  left: 1250;
+}
+
+.group-child {
+  position: absolute;
+  top: 2955;
+  left: 865;
+  box-sizing: border-box;
+  width: 525px;
+  height: 95.5px;
+  background-color: rgba(125, 185, 206, 0.15000000596046448);
+  border-radius: 17.111331939697266px;
+  border: 1.5px solid rgba(134, 196, 217, 0.36000001430511475);
+}
+
+.PRE-ORDER-30 {
+  position: absolute;
+  top: 3080;
+  left: 1080;
+  margin-top: 14px;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.PRE-ORDER-30:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 4 */
+
+.image-4-icon {
+  position: absolute;
+  top: 3200px;
+  left: 830px;
+  width: 510px;
+  height: 525px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.image-4-icon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.cpx-pro1 {
+  position: absolute;
+  top: 3320px;
+  left: 260px;
+  font-size: var(--font-size-19xl-5);
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.tech-performance-container {
+  top: 3380px;
+  left: 210px;
+  position: absolute;
+  font-weight: 500;
+}
+
+.tech-performance-container .refined-simplicity {
+  margin-left: 100px;
+}
+
+.single-battery-r114300-container {
+  position: absolute;
+  font-weight: 500;
+  top: 3460px;
+  left: 210;
+}
+
+.single-battery-r114300-container .refined-simplicity {
+  margin-left: 50px;
+}
+
+.kmhr-speed-4 {
+  position: absolute;
+  top: 3580;
+  left: 120;
+}
+
+.km-battery-range-container-4 {
+  position: absolute;
+  top: 3580;
+  left: 300;
+}
+
+.hr-charging-time-container-4 {
+  position: absolute;
+  top: 3580;
+  left: 500;
+}
+
+.group-child-4 {
+  position: absolute;
+  top: 3555;
+  left: 80;
+  box-sizing: border-box;
+  width: 560px;
+  height: 95.5px;
+  background-color: rgba(125, 185, 206, 0.15000000596046448);
+  border-radius: 17.111331939697266px;
+  border: 1.5px solid rgba(134, 196, 217, 0.36000001430511475);
+}
+
+.PRE-ORDER-40 {
+  position: absolute;
+  top: 3680;
+  left: 300;
+  margin-top: 14px;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.PRE-ORDER-40:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* MINIFOOTERSECTION */
+
+#miniFooterSection {
+  background-color: #c2dbee;
+  width: 100%;
+  height: 250;
+}
+
+.signuptoour {
+  margin-left: 100px;
+  padding-top: 100;
+  float: left;
+}
+
+.subscribehere—we {
+  padding-top: 40;
+  padding-right: 50;
+  font-size: 40px;
+  line-height: 40px;
+  float: right;
+  width: 623px;
+}
+
+.text {
+  border-radius: 15px;
+  padding: 15px;
+  width: 150;
+  height: 35;
+}
+
+.join {
+  border-radius: 15px;
+  color: black;
+  width: 120px;
+  height: 35px;
+  background-color: #c8e3f0;
+  transition: transform 0.2s;
+}
+
+.join:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #137c9e;
+}
+
+/* COPYRIGHT */
+
+#copyRight {
+  background-color: #c5e2f0;
+  height: 20px;
+  width: 98.7%;
+  text-align: center;
+  padding: 10px;
+}
