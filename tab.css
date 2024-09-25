@@ -86,7 +86,6 @@
 }
 
 .PRE-ORDER-1 {
-  margin-right: 200px;
   float: right;
   border-radius: 8px;
   background-image: linear-gradient(#9ae0d3, #35a7a0);
@@ -94,7 +93,7 @@
   width: 120px;
   height: 32px;
   border: none;
-  margin-top: -50px;
+  margin-top: 50px;
   transition: transform 0.2s;
 }
 
