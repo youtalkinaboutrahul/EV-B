@@ -1,0 +1,11 @@
+/* Phone */
+
+@import url("mobile.css") only screen and (min-width: 425px);
+
+/* Tab */
+
+@import url("tab.css") only screen and (min-width: 768px);
+
+/* Desktop */
+
+@import url("desktop.css") only screen and (min-width: 1140px);

@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #c5e2f0;
+}
+
+/* HEADER SECTION */
+
+#headerSection {
+  max-width: 768px;
+  height: 60px;
+}
+
+.headerLogo {
+  float: left;
+  padding: 10px 0px;
+  margin-left: 40px;
+}
+
+/* NAVIGATION SECTION */
+
+.mainNavMenu {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  float: right;
+  margin-right: -50px;
+  justify-content: space-evenly;
+}
+
+.mainNavMenu li {
+  float: left;
+  height: 40px;
+  line-height: 60px;
+  margin-right: 100px;
+}
+
+.mainNavMenu li a {
+  color: #1e1e1e;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.mainNavMenu li :hover {
+  color: #137c9e;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+/* login button */
+
+.Loginbtn {
+  margin-top: 14px;
+  margin-right: -100px;
+  justify-content: right;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 100px;
+  height: 32px;
+  transition: transform 0.2s;
+  font-weight: bold;
+}
+
+.Loginbtn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* PREBODYSECTION */
+
+.frameimg {
+  margin-left: 50px;
+}
+
+.text2 {
+  float: right;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.PRE-ORDER-1 {
+  margin-right: 200px;
+  float: right;
+  border-radius: 8px;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  margin-top: -50px;
+  transition: transform 0.2s;
+}
+
+.PRE-ORDER-1:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BODYSECTION */
+
+.explore {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+b {
+  text-decoration: underline #35a7a0;
+}
+
+.bike1 {
+  position: absolute;
+  display: flex;
+  margin-top: 30px;
+  left: 15em;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.bike1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.biketext1 {
+  position: relative;
+  float: right;
+  margin-right: 250px;
+  margin-top: 35em;
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.PRE-ORDER-2 {
+  border-radius: 8px;
+  float: right;
+  margin-top: 72em;
+  margin-right: -300px;
+  font-weight: 600;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.PRE-ORDER-2:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 2 */
+
+.bike2 {
+  position: absolute;
+  display: flex;
+  margin-top: 180px;
+  left: 15em;
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.bike2:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.biketext2 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 41em;
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.PRE-ORDER-3 {
+  border-radius: 8px;
+  margin-top: 4em;
+  margin-left: 45%;
+  font-weight: 600;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.PRE-ORDER-3:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 3 */
+
+.bike3 {
+  position: absolute;
+  display: flex;
+  margin-top: 120px;
+  left: 18em;
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.bike3:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.biketext3 {
+  position: relative;
+  float: right;
+  margin-right: 250px;
+  margin-top: 32em;
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.PRE-ORDER-4 {
+  border-radius: 8px;
+  float: right;
+  margin-top: 70em;
+  margin-right: -300px;
+  font-weight: 600;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.PRE-ORDER-4:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* BIKE 4 */
+
+.bike4 {
+  position: absolute;
+  left: 830px;
+  display: flex;
+  margin-top: 220px;
+  left: 15em;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.bike4:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.biketext4 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 39em;
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.PRE-ORDER-5 {
+  border-radius: 8px;
+  margin-top: 4em;
+  margin-left: 44%;
+  font-weight: 600;
+  background-image: linear-gradient(#9ae0d3, #35a7a0);
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border: none;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.PRE-ORDER-5:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+  color: #1e1e1e;
+}
+
+/* MINIFOOTERSECTION */
+
+#miniFooterSection {
+  background-color: #c2dbee;
+  width: 100%;
+  height: 250;
+}
+
+.signuptoour {
+  padding-top: 50px;
+  text-align: center;
+  font-size: x-large;
+  background-color: #c2dbee;
+}
+
+.signuptoour p {
+  background-color: #c2dbee;
+}
+
+.subscribehere—we {
+  padding-top: 30;
+  line-height: 40px;
+  width: 623px;
+  margin-left: 15em;
+  background-color: #c2dbee;
+}
+
+form {
+  background-color: #c2dbee;
+}
+
+.text {
+  border-radius: 15px;
+  padding: 15px;
+  width: 150;
+  height: 35;
+}
+
+.join {
+  border-radius: 15px;
+  color: black;
+  width: 120px;
+  height: 35px;
+  background-color: #c8e3f0;
+  transition: transform 0.2s;
+}
+
+.join:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #137c9e;
+}
+
+/* COPYRIGHT */
+
+#copyRight {
+  background-color: #c5e2f0;
+  height: 20px;
+  width: 98.7%;
+  text-align: center;
+  padding: 10px;
+}
